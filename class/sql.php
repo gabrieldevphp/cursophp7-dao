@@ -13,13 +13,13 @@
 
 			foreach ($parameters as $key => $value) {
 				
-				$this -> setParams($key, $value);
+				$this -> setParam($statment, $key, $value);
 			}
 
 		}
 		private function setParam($statment, $key, $value){
 
-			$statment -> bindParam($key, $value);
+			$statment -> bindParam( $key, $value);
 
 		}
 
