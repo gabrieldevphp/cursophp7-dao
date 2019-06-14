@@ -42,12 +42,19 @@
 
 	//echo $aluno;
 
+	//$usuario = new Usuario();
+
+	//$usuario -> loadById(30);
+
+	//$usuario -> update ("profesdsssor", "idjsidjas");
+
+	//echo $usuario;
+
 	$usuario = new Usuario();
 
-	$usuario -> loadById(30);
+	$usuario -> loadById(22);
 
-	$usuario -> update ("profesdsssor", "idjsidjas");
+	$usuario -> delete();
 
 	echo $usuario;
-
  ?>
