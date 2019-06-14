@@ -29,11 +29,25 @@
 	//carrega um usuario usando o login e senha
 
 
+	//$usuario = new Usuario();
+
+	//$usuario -> login("gabriel", "1111");
+
+	//echo $usuario;
+
+	//criando um novo usuario
+	//$aluno = new Usuario("Gabriel", "20200");
+
+	//$aluno -> insert();
+
+	//echo $aluno;
+
 	$usuario = new Usuario();
 
-	$usuario -> login("gabriel", "1111");
+	$usuario -> loadById(30);
+
+	$usuario -> update ("profesdsssor", "idjsidjas");
 
 	echo $usuario;
-
 
  ?>
